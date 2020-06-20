@@ -16,7 +16,7 @@ namespace TextAnalyser.Source
         {
             foreach (var element in textsListToPrint)
             {
-                Console.Write(element + ", ");
+                Console.Write(element);
             }
         }
         public void Print(Dictionary<string, int> dictToPrintFrom, int numberOfEntries)
